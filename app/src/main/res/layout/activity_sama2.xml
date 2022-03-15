@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sama2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foreground="@drawable/bluebackground"
+        app:srcCompat="@drawable/redstars" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almarai_bold"
+        android:text="سعيد بمعرفتك!"
+        android:textAlignment="center"
+        android:textColor="#12AEC3"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/wavingelephant"
+        android:layout_width="240dp"
+        android:layout_height="221dp"
+        android:layout_alignLeft="@id/title2"
+        android:layout_alignRight="@id/title2"
+        android:layout_marginTop="14mm"
+        android:textAlignment="center"
+        app:srcCompat="@drawable/elephantwaving" />
+
+    <TextView
+        android:id="@+id/insertedinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50mm"
+        android:fontFamily="@font/almarai_bold"
+        android:text="-بيانات العميل:"
+        android:textColor="#288E9C"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60mm"
+        android:fontFamily="@font/almarai_bold"
+        android:text="-الأسم:"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="29sp" />
+
+    <TextView
+        android:id="@+id/nameinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68mm"
+        android:fontFamily="@font/almarai_bold"
+        android:text="-"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="31sp" />
+
+    <TextView
+        android:id="@+id/age2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="77mm"
+        android:fontFamily="@font/almarai_bold"
+        android:text="-العمر:"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="29sp" />
+
+    <TextView
+        android:id="@+id/ageinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84mm"
+        android:fontFamily="@font/almarai_bold"
+        android:text="-"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="31sp" />
+</RelativeLayout>

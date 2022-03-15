@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foreground="@drawable/bluebackground"
+        app:srcCompat="@drawable/redstars" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almarai_bold"
+        android:text="لنتعرف!"
+        android:textAlignment="center"
+        android:textColor="#12AEC3"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/waving"
+        android:layout_width="240dp"
+        android:layout_height="221dp"
+        android:layout_alignLeft="@id/title"
+        android:layout_alignRight="@id/title"
+        android:layout_marginTop="14mm"
+        android:textAlignment="center"
+        app:srcCompat="@drawable/dogwaving" />
+
+    <TextView
+        android:id="@+id/insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50mm"
+        android:fontFamily="@font/almarai_bold"
+        android:text="-الرجاء ادخال البيانات التالية:"
+        android:textColor="#288E9C"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="382dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="2mm"
+        android:layout_marginTop="57mm"
+        android:background="#61DAEA"
+        android:backgroundTint="#61DFEA"
+        android:ems="10"
+        android:fontFamily="@font/almarai"
+        android:hint="الأسم:"
+        android:inputType="textPersonName"
+        android:shadowColor="#2875EA"
+        android:text="الأسم:"
+        android:textColor="#1C4BF4"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="382dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="2mm"
+        android:layout_marginTop="69mm"
+        android:background="#61DAEA"
+        android:backgroundTint="#61DFEA"
+        android:ems="10"
+        android:fontFamily="@font/almarai"
+        android:inputType="textPersonName"
+        android:shadowColor="#2875EA"
+        android:text="العمر:"
+        android:hint="العمر:"
+        android:textColor="#1C4BF4"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/name"
+        android:layout_alignRight="@id/name"
+        android:layout_marginTop="82mm"
+        android:backgroundTint="#2196F3"
+        android:fontFamily="@font/almarai_bold"
+        android:text="التالي"
+        android:textSize="34sp" />
+
+</RelativeLayout>
